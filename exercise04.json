@@ -2,7 +2,7 @@
 
 // Create your JavaScript objects
 let person = {
-   var myJSON = JSON.stringigy(firstName),
+   JSON.stringigy(firstName)
    firstName: "ricky",
    lastName: "xu",
    ID: 777060864,
