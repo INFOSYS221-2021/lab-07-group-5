@@ -2,26 +2,24 @@
 
 // Create your JavaScript objects
 let person = {
-   firstName: "Snow",
-   lastName: "White",
-   isFiction: true,
-   age: 18,
-   address: {
-      streetAddress: "7 Fairytale Lane",
-      city: "Fairytale Forest"
-   },
-   phoneNumbers:[
+   firstName: "ricky",
+   lastName: "xu",
+   ID: 777060864,
+   age: 22,
+   username: "xxu281",
+   degree: "masters",
+   course:[
       {
-         type: "home",
-         number: "01 123-4567"
+         major: "Infosys",
+         number: "221"
       },
       {
-         type: "office",
-         number: "01 555-4567"
+         major: "infosys",
+         number: "110"
       },
       {
-         type: "mobile",
-         number: "028 456-7890"
+         major: "infosys",
+         number: "220"
       }
    ],
    spouse: null
