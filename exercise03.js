@@ -1,6 +1,3 @@
-// Example object and print statements
-
-// Create your JavaScript objects
 let person = {
    firstName: "ricky",
    lastName: "xu",
@@ -27,6 +24,8 @@ let person = {
 
 // print different properties of your objects
 console.log("First name of person: " + person.firstName);
-for (i in person.phoneNumbers) {
-    console.log("Phone number: " + person.phoneNumbers[i].number);
+for (i in person.course) {
+    console.log("course: " + person.course[i].major+person.course[i].number);
+
 }
+console.log(JSON.stringify(person));
